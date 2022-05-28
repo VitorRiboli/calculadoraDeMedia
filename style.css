@@ -8,30 +8,37 @@
   
   body {
     font-family: 'Roboto Mono',monospace;
-    background-color: #000000;
-    background-size: 100vh;
+    background-color: #242323;
     background-position: center bottom;
     background-repeat: no-repeat;
   }
 
   .container {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     height: 100vh;
   }
   
   .notas input[type=number] {
-    border: 0;
     background: none;
     display: block;
     margin: 10px auto;
     text-align: center;
-    border: 2px solid #34a6db;
+    border: 2px solid #348adb;
     padding: 14px 10px;
     width: 20%;
     color: #ffffff;
     border-radius: 26px;
     transition: 0.25s;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .notas input[type=number]:hover {
+    background: #348adb;
+    border: 4px solid #2ecc71;
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .notas button[type=submit] {
@@ -46,8 +53,17 @@
     outline: none;
     color: #34a6db;
     border-radius: 24px;
-    transition: 0.25s;
+    transition: 0.3s;
     cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .notas button[type=submit]:hover {
+    background: #2ecc71;
+    font-size: 22px;
+    font-weight: 700;
+    border: 4px solid #348adb;
   }
 
   .notas h2 {
