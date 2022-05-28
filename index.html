@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Calculadora de Média</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de média</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+      </p>
+      <br>
+      <br>
+      <section class="notas">
+        <input type="number" id="notaUm" size="2" placeholder="Nota Primeiro Trimestre" /><br>
+        <input type="number" id="notaDois" size="2" placeholder="Nota Segundo Trimestre" /><br>
+        <input type="number" id="notaTres" size="2" placeholder="Nota Terceiro Trimestre" /><br>
+        <button type="submit" onclick="calcular()">Calcular</button>
+        <h2 id="valorConvertido"></h2>
+      </section>
+    </div> 
+    <script src="script.js"></script>
+  </body>
+</html>
